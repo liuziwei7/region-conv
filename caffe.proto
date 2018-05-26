@@ -1,0 +1,6 @@
+// Message that stores parameters used by RegionConvolutionLayer
+message RegionConvolutionParameter {
+  optional bool input_compression = 1 [default = false];
+  optional bool output_compression = 2 [default = false];
+  optional int32 mask_idx = 3 [default = 0];
+}
